@@ -68,7 +68,7 @@ body {
 .row {
   /* margin: 100px; */
   /* margin: 2vh; */
-  height: 30vh;
+  height: 25vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -89,6 +89,12 @@ body {
 h1 {
   /* margin: auto; */
   text-align: center;
+  height: 5vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .text-box {
