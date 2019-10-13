@@ -11,6 +11,7 @@
 .video {
   width: 100vw;
   height: 100vh;
+  height: calc(var(--vh, 1vh) * 100);
   position: absolute;
   display: flex;
   justify-content: center;
@@ -45,6 +46,7 @@ body {
   width: 100vw;
   min-height: -webkit-fill-available;
   height: 100vh;
+  height: calc(var(--vh, 1vh) * 100);
   /* vertical-align: middle; */
   /* position: relative; */
   display: -webkit-box;
@@ -70,6 +72,7 @@ body {
   /* margin: 100px; */
   /* margin: 2vh; */
   height: 25vh;
+  height: calc(var(--vh, 1vh) * 25);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -91,6 +94,7 @@ h1 {
   /* margin: auto; */
   text-align: center;
   height: 5vh;
+  height: calc(var(--vh, 1vh) * 5);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
