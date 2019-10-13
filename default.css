@@ -11,7 +11,6 @@
 .video {
   width: 100vw;
   height: 100vh;
-  height: calc(var(--vh, 1vh) * 100);
   position: absolute;
   display: flex;
   justify-content: center;
@@ -43,45 +42,40 @@ height: 100%;
 body {
   margin: 0px;
   padding: 0px;
-  width: 100vw;
+  /* width: 100vw; */
+  /* max-height: 100vh;
   min-height: -webkit-fill-available;
-  height: 100vh;
-  height: calc(var(--vh, 1vh) * 100);
+  min-height: 1024px; */
   /* vertical-align: middle; */
   /* position: relative; */
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   justify-content: center;
-  align-items: center;
+  /* align-items: center; */
   font-family: 'Big Shoulders Display', cursive;
 }
 
 .main-content {
-  /* margin: auto;
-  text-align: center;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%); */
-  /* padding-top: 20vh; */
-  /* height: 100%;x */
+  height: 100%;
 }
 
 .row {
   /* margin: 100px; */
   /* margin: 2vh; */
-  height: 25vh;
-  height: calc(var(--vh, 1vh) * 25);
+  /* height: 25vh; */
+  /* height: calc(var(--vh, 1vh) * 25); */
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 20px;
 }
 
 .row1, .row3 {
   animation: 1s ease-out 0s 1 slideInFromLeft;
+  justify-content: flex-start;
 
 }
 
@@ -93,8 +87,8 @@ body {
 h1 {
   /* margin: auto; */
   text-align: center;
-  height: 5vh;
-  height: calc(var(--vh, 1vh) * 5);
+  /* height: 5vh;
+  height: calc(var(--vh, 1vh) * 5); */
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -104,8 +98,8 @@ h1 {
 
 .text-box {
   /* display: inline-block; */
-  width: 30vw;
-  height: 33.33vw;
+  /* width: 30vw; */
+  height: 100px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -119,11 +113,12 @@ h1 {
 }
 
 .vid-box {
-  width: 50vw;
-  height: 33.33vw;
+  width: 150px;
+  height: 100px;
   display: inline-block;
   /* border: 1px solid black; */
-  margin: auto;
+  /* margin: auto; */
+  /* text-align: left; */
 }
 
 .vid1 {
