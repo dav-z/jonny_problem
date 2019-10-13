@@ -115,7 +115,7 @@ h1 {
 }
 
 .vid-box {
-  width: 50vw;
+  width: 30vh;
   height: 20vh;
   display: inline-block;
   /* border: 1px solid black; */
@@ -145,7 +145,7 @@ h1 {
 }
 
 
-/* @keyframes slideInFromLeft {
+@keyframes slideInFromLeft {
   0% {
     transform: translateX(-100%);
   }
@@ -161,4 +161,4 @@ h1 {
   100% {
     transform: translateX(0);
   }
-} */
+}
