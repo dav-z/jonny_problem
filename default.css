@@ -70,6 +70,7 @@ body {
   /* margin: 100px; */
   /* margin: 2vh; */
   height: 25vh;
+  height: calc(var(--vh, 1vh) * 25);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -91,6 +92,7 @@ h1 {
   /* margin: auto; */
   text-align: center;
   height: 5vh;
+  height: calc(var(--vh, 1vh) * 5);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -100,8 +102,10 @@ h1 {
 
 .text-box {
   /* display: inline-block; */
-  width: 30vw;
+  width: 30vh;
+  height: calc(var(--vh, 1vh) * 30);
   height: 20vh;
+  height: calc(var(--vh, 1vh) * 20);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -116,7 +120,9 @@ h1 {
 
 .vid-box {
   width: 30vh;
+  height: calc(var(--vh, 1vh) * 30);
   height: 20vh;
+  height: calc(var(--vh, 1vh) * 20);
   display: inline-block;
   /* border: 1px solid black; */
   margin: auto;
