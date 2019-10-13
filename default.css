@@ -1,13 +1,15 @@
-/* body {
-  background: url('https://coloradomentalwellnessnetwork.org/wp-content/uploads/2016/03/PP-Background-Stacked-Rocks.jpg');
-  background-position: bottom;
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 100%;
-  height: 100vh;
+/* iphone 5 */
+body {
+  min-width: 320px;
+  min-height: 568px;
   margin: 0px;
-} */
-
+  padding: 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  font-family: 'Big Shoulders Display', cursive;
+}
 .video {
   width: 100vw;
   height: 100vh;
@@ -39,38 +41,13 @@ width: 100%;
 height: 100%;
 }
 
-body {
-  margin: 0px;
-  padding: 0px;
-  /* width: 100vw; */
-  /* max-height: 100vh;
-  min-height: -webkit-fill-available;
-  min-height: 1024px; */
-  /* vertical-align: middle; */
-  /* position: relative; */
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  justify-content: center;
-  /* align-items: center; */
-  font-family: 'Big Shoulders Display', cursive;
-}
-
-.main-content {
-  height: 100%;
-}
-
 .row {
-  /* margin: 100px; */
-  /* margin: 2vh; */
-  /* height: 25vh; */
-  /* height: calc(var(--vh, 1vh) * 25); */
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 20px;
+  margin-bottom: 30px;
 }
 
 .row1, .row3 {
@@ -85,22 +62,18 @@ body {
 }
 
 h1 {
-  /* margin: auto; */
   text-align: center;
-  /* height: 5vh;
-  height: calc(var(--vh, 1vh) * 5); */
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 50px;
 }
 
 .text-box {
-  /* display: inline-block; */
-  /* width: 30vw; */
   height: 100px;
-  width: 150px;
+  width: 100px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -110,16 +83,13 @@ h1 {
 
 .text-box p {
   margin: 2%;
-  font-size: 40px;
+  font-size: 20px;
 }
 
 .vid-box {
   width: 150px;
   height: 100px;
   display: inline-block;
-  /* border: 1px solid black; */
-  /* margin: auto; */
-  /* text-align: left; */
 }
 
 .vid1 {
@@ -127,7 +97,6 @@ h1 {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  right: 50vw;
 }
 
 .vid2 {
@@ -144,6 +113,73 @@ h1 {
   background-size: cover;
 }
 
+/* iphone 6/7/8 */
+@media only screen and (min-width: 374px) {
+  h1 {
+    margin-bottom: 30px;
+  }
+  .row {
+    margin-bottom: 30px;
+  }
+  .vid-box {
+    height: 150px;
+    width: 225px;
+  }
+  .text-box {
+    height: 150px;
+  }
+}
+
+/* plus phones */
+@media only screen and (min-width: 413px) {
+  h1 {
+    margin-bottom: 30px;
+  }
+  .row {
+    margin-bottom: 30px;
+  }
+  .vid-box {
+    height: 170px;
+    width: 255px;
+  }
+  .text-box {
+    height: 170px;
+  }
+}
+
+@media only screen and (min-width: 767px) {
+  h1 {
+    margin-bottom: 50px;
+    margin-top: 30px;
+  }
+  .row {
+    margin-bottom: 40px;
+  }
+  .vid-box {
+    height: 200px;
+    width: 300px;
+  }
+  .text-box {
+    height: 200px;
+  }
+}
+
+@media only screen and (min-width: 1366px) {
+  h1 {
+    margin-bottom: 30px;
+  }
+  .row {
+    margin-bottom: 30px;
+  }
+  .vid-box {
+    height: 200px;
+    width: 300px;
+  }
+  .text-box {
+    height: 200px;
+    width: 600px;
+  }
+}
 
 /* @keyframes slideInFromLeft {
   0% {
