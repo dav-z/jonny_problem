@@ -1,0 +1,282 @@
+/* iphone 5 */
+body {
+  min-width: 320px;
+  min-height: 568px;
+  margin: 0px;
+  padding: 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  font-family: pragmatica-extended, sans-serif;
+  font-weight: 200;
+}
+
+a {
+  color: #000000;
+  text-decoration: none;
+}
+
+.main-content {
+  padding-top: 70px;
+}
+
+.video {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  z-index: 100;
+  background-color: rgba(0,0,0,.4);
+  display: none;
+}
+
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px; height: 0; overflow: hidden;
+}
+
+.video-container iframe,
+.video-container object,
+.video-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.row1{
+  animation: 1s ease-out 0s 1 slideInFromLeft;
+  justify-content: flex-start;
+  justify-content: space-between;
+
+}
+
+.row2 {
+  animation: 1s ease-out 0s 1 slideInFromRight;
+  justify-content: center;
+}
+
+.row3, .row4 {
+  justify-content: flex-end;
+}
+
+/* h1 {
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+} */
+
+.text-box {
+  height: 80px;
+  width: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  float: right;
+}
+
+.text-box p {
+  margin: 2%;
+  font-size: 20px;
+}
+
+.vid-box {
+  /* width: 150px;
+  height: 100px; */
+  display: inline-block;
+}
+
+.vid-box img {
+  max-height: 80px;
+  width: auto;
+}
+
+.text-box.work {
+  height: 130px;
+}
+
+.vid2 img, .vid1 img {
+  max-height: 130px;
+}
+
+/* .vid1 {
+  background: url('https://66.media.tumblr.com/tumblr_lzp7c9qgpk1rn95k2o1_500.gif');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.vid2 {
+  background: url('http://25.media.tumblr.com/tumblr_lyzs00SH9r1qkosodo1_500.gif');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.vid3 {
+  background: url('https://media3.giphy.com/media/BzCAMS4nneBGw/giphy.gif');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
+
+/* iphone 6/7/8 */
+@media only screen and (min-width: 374px) {
+  /* h1 {
+    margin-bottom: 30px;
+  } */
+  .main-content {
+    padding-top: 90px;
+  }
+  .row {
+    margin-bottom: 30px;
+  }
+
+  .vid-box img {
+    max-height: 100px;
+    width: auto;
+  }
+
+  .vid1 img, .vid2 img {
+    max-height: 130px;
+  }
+
+  .text-box {
+    height: 100px;
+  }
+
+  .text-box.work {
+    height: 130px;
+  }
+}
+
+/* plus phones */
+@media only screen and (min-width: 413px) {
+  /* h1 {
+    margin-bottom: 30px;
+  } */
+  .main-content {
+    padding-top: 110px;
+  }
+  .row {
+    margin-bottom: 30px;
+  }
+
+  .vid-box img {
+    max-height: 120px;
+    width: auto;
+  }
+
+  .vid1 img, .vid2 img {
+    max-height: 150px;
+  }
+
+  .text-box {
+    height: 120px;
+  }
+
+  .text-box.work {
+    height: 150px;
+  }
+}
+
+@media only screen and (min-width: 767px) {
+  /* h1 {
+    margin-bottom: 30px;
+  } */
+  .main-content {
+    padding-top: 110px;
+  }
+  .row {
+    margin-bottom: 30px;
+  }
+
+  .vid-box img {
+    max-height: 140px;
+    width: auto;
+  }
+
+  .vid1 img, .vid2 img {
+    max-height: 200px;
+  }
+
+  .text-box {
+    height: 140px;
+    width: 200px;
+  }
+
+  .text-box.work {
+    height: 200px;
+  }
+}
+
+@media only screen and (min-width: 1366px) {
+  /* h1 {
+    margin-bottom: 30px;
+  } */
+  .main-content {
+    padding-top: 90px;
+  }
+  .row {
+    margin-bottom: 30px;
+  }
+
+  .vid-box img {
+    max-height: 200px;
+    width: auto;
+  }
+
+  .vid1 img, .vid2 img {
+    max-height: 220px;
+  }
+
+  .text-box {
+    height: 200px;
+    width: 300px;
+  }
+
+  .text-box.work {
+    height: 220px;
+  }
+}
+
+/* @keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInFromRight {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+} */
