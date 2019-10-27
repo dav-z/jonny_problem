@@ -2,6 +2,7 @@
 html {
   height: 100%;
 }
+
 body {
   min-width: 320px;
   min-height: 568px;
@@ -42,8 +43,8 @@ body {
 .list {
   display: flex;
   flex-direction: column;
-  height: 100vh;
-  width: 100vw;
+  height: 100%;
+  width: 100%;
   overflow: auto;
   text-align: center;
 }
@@ -58,9 +59,14 @@ body {
   margin-bottom: auto;
 }
 
+.list h2 {
+  margin-top: 30px;
+}
+
 .list ul {
   list-style: none;
   padding: 0;
+  padding-bottom: 30px;
 }
 
 .list ul li {
