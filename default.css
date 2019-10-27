@@ -39,15 +39,6 @@ body {
   z-index: 100;
 }
 
-.back a:before {
-  content: '\27f5';
-}
-
-.back a:hover:before {
-  content: '\27f5home';
-  color: #000000;
-}
-
 .list {
   display: flex;
   flex-direction: column;
