@@ -1,13 +1,13 @@
 /* iphone 5 */
 @font-face {
-    font-family: helvetica;
+    font-family: inter;
     font-weight: 700;
-    src: url("fonts/helvetica-neue-bold.ttf") format("truetype");
+    src: url("fonts/Inter-Bold.ttf") format("truetype");
 }
 @font-face {
-    font-family: helvetica;
+    font-family: inter;
     font-weight: 200;
-    src: url("fonts/helvetica-neue-ultra-light.ttf") format("truetype");
+    src: url("fonts/Inter-ExtraLight.ttf") format("truetype");
 }
 html {
   height: 100%;
@@ -23,7 +23,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: helvetica, sans-serif;
+  font-family: inter, sans-serif;
   font-weight: 200;
   font-size: 12px;
   height: 100%;
